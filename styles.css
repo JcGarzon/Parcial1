@@ -35,14 +35,19 @@
     transform: translateX(-50%);
     background-color: black; 
     padding: 5px; 
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0px 0px 10px darkblue;
+}
+
+.perfil img:hover{
+    background-color: #00A3FF; 
 }
 
 .perfil h1 {
+    
     margin: 0;
 }
 .perfil h1:hover{
-    color: darkblue;
+    color: #00A3FF;
 }
 .perfil p {
     margin: 10px 0 0;
@@ -64,6 +69,7 @@ body {
     gap: 20px; 
     justify-items: center;
     text-align: center;
+    
 }
 .icono-habilidad {
     display: block;
@@ -75,11 +81,12 @@ body {
 .Habilidad {
 
     text-align: center;
+    
 }
 
 .Habilidad h3 {
-    color: rgb(10, 34, 153);
-    text-shadow: 1px 1px 2px darkgrey;
+    color: #00A3FF;
+    text-shadow: 1px 1px 2px darkblue;
 }
 
 .Habilidad p {
@@ -89,31 +96,33 @@ body {
 
 .Habilidades h2 {
     grid-column: span 2; 
-    color: darkblue;
-    text-shadow: 2px 2px 4px grey;
+    color: #00A3FF;
+    text-shadow: 1px 1px 2px darkblue;
 }
 
 .Proyectos {
     margin-top: 30px;
     padding: 20px;
     text-align: center;
+    
 }
 
 .Proyectos h2 {
-    color: darkblue;
-    text-shadow: 2px 2px 4px grey;
+    color: #00A3FF;
+    text-shadow: 1px 1px 2px darkblue;
     margin-bottom: 20px;
 }
 
 .Proyecto {
     display: inline-block;
     width: 30%;
-    margin: 0 1.5%; /* Para espaciado entre los proyectos */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 1.5%; 
+    box-shadow: 0px 0px 10px #00A3FF;
     padding: 10px;
     border-radius: 10px;
     background-color: #f9f9f9;
     transition: transform 0.3s ease;
+   
 }
 
 .Proyecto img {
@@ -138,19 +147,19 @@ body {
 
 .Proyecto:hover {
     transform: scale(1.05);
-    color: darkblue;
+    color: #00A3FF;
 }
 .GitIgnore {
     margin-top: 30px;
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px #00A3FF;
 }
 
 .GitIgnore h2 {
-    color: darkblue;
-    text-shadow: 2px 2px 4px grey;
+    color: #00A3FF;
+    text-shadow: 1px 1px 2px darkblue;
     margin-bottom: 20px;
 }
 
